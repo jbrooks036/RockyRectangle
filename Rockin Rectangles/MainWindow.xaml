@@ -1,0 +1,10 @@
+﻿<Window x:Class="Rockin_Rectangles.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Canvas x:Name="RockyCanvas" HorizontalAlignment="Left" Height="299" Margin="10,10,0,0" VerticalAlignment="Top" Width="497">
+            <Rectangle x:Name="RockyRectangle" MouseEnter="FirstMove" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="119" Margin="199,97,0,0" Stroke="Black" VerticalAlignment="Top" Width="133" Canvas.Left="208" Canvas.Top="108"/>
+        </Canvas>
+    </Grid>
+</Window>
